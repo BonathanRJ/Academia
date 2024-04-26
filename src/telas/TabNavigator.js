@@ -32,6 +32,8 @@ const screenOptionStyle = {
     const routeName = getFocusedRouteNameFromRoute(route)
     if  (routeName?.includes("TreinoA")     || 
         (routeName?.includes("Dentro1"))    || 
+        (routeName?.includes("Dentro2"))    || 
+        (routeName?.includes("Dentro3"))    || 
         (routeName?.includes("TreinoB"))
         )   
     {

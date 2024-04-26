@@ -4,6 +4,8 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 
 import Swiper from 'react-native-swiper';
 
+import Dentro2 from "../telas/Dentro2"
+
 
 export default class SwiperComponent extends Component {
   constructor(props) {
@@ -97,10 +99,10 @@ export default class SwiperComponent extends Component {
         activeDot={<View style={styles.activeDot} />}
       >
         <View style={styles.resto}>
-          <Image source={require('../../assets/TreinoA/legpress.jpg')} style={imagens.imagem} />
+          <Image source={require('../../assets/TreinoA/leghorizontal.jpg')} style={imagens.imagem} />
           <View style={{ width: 350, alignSelf: 'center', height: 1, backgroundColor: '#c1c4c9' }} />
           <View style={container.container}>
-            <Text style={styles.exercicio}>Leg Press 45°</Text>
+            <Text style={styles.exercicio}>Leg Horizontal</Text>
           </View>
           <View style={container.container}>
             <View>
