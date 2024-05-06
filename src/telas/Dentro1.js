@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { AppRegistry, Text, TextInput , View, Image, TouchableOpacity, Modal, Animated, Button } from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import { imagens, container, styles, modal } from './css/styles';
+import { imagens, container, styles, modal } from './css/styles_dentro';
 import Swiper from 'react-native-swiper';
 import ScrollPicker from "react-native-wheel-scrollview-picker";
 
